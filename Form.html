@@ -1,0 +1,47 @@
+<!DOCTYPE html lang="en">
+<html>
+    <head>
+        <style>
+            body{
+                background-color:slategrey;
+                padding:10px;
+                text-align:center;}
+                h1 {color: rgba(0,0,0,0.3);
+                padding:20px;
+            text-align:center;}
+                h2 {color: rgba(0,0,0,0.6);
+                    padding:20px;
+            text-align:center;
+        font-family: Arial; font-size:medium;}
+
+        </style>
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Information of selected candidates</h1>
+        <form autocomplete="on">
+            <label for="fname">First name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name</label><br>
+            <input type="text" id="lname" name="lname"><br>
+        </form>
+        <h2>Country of choice</h2>
+        <form>
+            <input type="radio" id="France" name="country" value="FRANCE">
+            <label for="France">FRANCE</label><br>
+            <input type="radio" id="Netherlands" name="country" value="NETHERLANDS">
+            <label for="Netherlands">Netherlands</label><br>
+            <input type="radio" id="Germany" name="country" value="GERMANY">
+            <label for="Germany">GERMANY</label>
+        </form> 
+        <h2>Course(s)you would like to take</h2>
+        <form action="/action_page.php" target="_parent" method="post">
+            <input type="checkbox" id="Computer science" name="course" value="Computer Science">
+            <label for="Computer Science">Computer Sience</label><br>
+            <input type="checkbox" id="Mechatronics Engineering" name="course" value="Mechatronics Engineering">
+            <label for="Mechatronics Engineering">Mechatronics Engineering</label><br>
+            <input type="checkbox" id="Physics" name="course" value="Physics">
+            <label for="Physics">Physics</label>
+        </form>
+    </body>
+</html>

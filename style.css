@@ -1,0 +1,30 @@
+table{
+    border-collapse:collapse;
+    border-radius:1px;}
+
+
+th, td{
+    border:2px solid rgba(164, 106, 49, 0.727);
+    padding:10px;
+    text-align:center;
+color:#8b5a2b;}
+    body{
+        background-image:url(p1.jpeg);
+        background-size:cover;
+        background-position:center;
+        color:#8b5a2b;
+        background:
+        linear-gradient(
+            rgba(0,0,0,0.8),
+            rgba(0,0,0,0.8)
+        ),
+        url("p1.jpeg");}
+    a{
+        text-decoration:underline;
+        color:chocolate;
+
+    }
+    line{width:50px;
+        text-decoration-thickness:3px;}
+            
+     

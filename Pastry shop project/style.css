@@ -1,0 +1,61 @@
+
+
+body{
+    background: color #141414;;
+    padding:10px;
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+h1{
+    color:white;
+    font-family: 'Helvetica';
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h2{
+    color:chartreuse;
+    font-family: arial;
+            }
+            a {margin:100px;
+                padding:50px;
+                border: 10px  white;
+                border-radius:50px;
+                width:400px;
+                margin-bottom: 10px;
+ card{
+        background-color:#1f1f1f;
+        width: 300px;
+        padding: 35px;
+        border-radius:15px;
+        text-align: center;}
+
+
+
+            }
+            profile-img {
+                margin:auto;
+                margin-bottom: 20px;
+                display:block;
+                border-radius:75px;
+                height: 90px
+                
+            }
+            links{
+                display: flex;
+                gap: 15px;
+                background-color: #333333;
+                color: white;
+                padding: 14px;
+                border-radius: 8px;
+                font-weight: bold;
+            }
+            links a:hover{
+                background-color: #c5f82a;
+                color:black
+            }
+            
+     

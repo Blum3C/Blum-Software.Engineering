@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color:Blue;
+    color:white;
+    padding:20px;
+    text-decoration;
+        padding: 20px 40px;   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+body {
+    background-color:white;
+    text-align:center;
+    width:100%;
+    position:relative;
+}
+
+a{text-decoration:none;
+    color:white;}
+    #Business{background-color:lightgrey;
+        color:white;
+        margin:auto;
+        background-image: url("office1.jpeg");
+        background-size:cover;
+        background-position: center;
+         height:150px;
+        padding:20px;
+        position:relative;
+        }
+        #Services{
+            background-color:gold;
+            padding:40px 20px;
+        }
+        #Services{
+                background-color:gold;
+                padding:40px 20px;
+            }
+
+        #about{
+                background-color:gold;
+                padding:40px 20px;
+            }
+
+     #contact{
+            background-color:gold;
+            padding:40px 20px;
+        
+
+     }
+        
+
+    button{
+        background-color:orange;
+        color:white;
+    width:200px;
+height:40px;
+border-color:none;}
+
+        ul{
+            list-style-type:none;
+        }
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;}
+   
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;      
+    font-weight: bold; 
+display:flex;}
